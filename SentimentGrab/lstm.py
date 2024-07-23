@@ -6,7 +6,7 @@ import pandas as pd
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Memuat model dan tokenizer
-model = load_model('D:\SentimentGrab\sentiment_model.h5')
+model = load_model('sentiment_model.h5')
 tokenizer = joblib.load('tokenizer.pkl')
 
 # Fungsi untuk memproses dan memprediksi sentimen
